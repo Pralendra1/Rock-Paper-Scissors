@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  font-size: larger;
+  font-family: 'Bungee Spice', sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.score{
+  font-family: 'Bungee Spice', sans-serif;
+  display: flex;
+  margin: 40px;
+  justify-content: space-between;
+}
+
+#player-score{
+  margin-left: 5vw;
+}
+
+#computer-score{
+  margin-right: 15vw;
+}
+
+.game{
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  margin: 10px 25px 10px 25px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#rock:hover{
+  border: 10px solid orangered;
+}
+
+#paper:hover{
+  border: 10px solid aqua;
+}
+
+#scissors:hover{
+  border: 10px solid lightgreen;
+}
+
+img{
+  width: 125px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.result{
+  font-size: 40px;
+  font-family: 'Bungee Spice', sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+@media (max-width: 750px) {
+  .title{
+    font-size: 15px;
+  }
+
+  .content{
+    margin: 10px;
+    padding: 3px;
+  }
+
+  img{
+    width: 100px;
+    height: auto;
+  }
+
+  .result{
+    font-size: 30px;
+  } 
+}
